@@ -9,7 +9,7 @@ public class FileTransferProtocolClient {
         final String serverAddress = "localhost";
         final int serverPort = 5555;
 
-        String fileName = "\"C:\\Users\\vivek\\OneDrive\\Desktop\\Books\"";
+        String fileName = "\"your file path"";
 
         try (Socket socket = new Socket(serverAddress, serverPort)) {
             System.out.println("Connected to server: " + socket);
